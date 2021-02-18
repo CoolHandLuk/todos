@@ -1,0 +1,77 @@
+/* Form */
+.form {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__wrapper-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__input {
+  border: none;
+  width: 260px;
+  padding: 5px;
+}
+
+.form__button {
+  border: none;
+  background: #fff;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.fa-plus-square {
+  color: #9b00fa;
+}
+
+.form__select {
+  border: none;
+  background-color: #fff;
+  margin-left: 15px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.custom-select {
+  position: relative;
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  background: #9b00fa;
+  height: 100%;
+  width: 1rem;
+  pointer-events: none;
+}
+
+.custom-arrow::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.custom-arrow::after {
+  border-left: 0.3em solid transparent;
+  border-right: 0.3em solid transparent;
+  border-top: 0.3em solid #fff;
+  top: 50%;
+}
+/*# sourceMappingURL=Form.css.map */

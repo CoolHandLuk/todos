@@ -1,0 +1,44 @@
+/* List */
+
+.tasks__list {
+  list-style: none;
+}
+
+.tasks__element {
+  display: flex;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  width: 400px;
+  min-height: 30px;
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.tasks__row {
+  flex-grow: 1;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.tasks__button-remove,
+.tasks__button-confirm {
+  background: none;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.fa-trash,
+.fa-check {
+  color: white;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #000;
+}
