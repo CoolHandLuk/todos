@@ -4,7 +4,7 @@ import TodoList from './components/TodoList/TodoList'
 import {useState, useEffect} from 'react';
 
 function App() {
-const [inputText, setInputText] = useState();
+const [inputText, setInputText] = useState('');
 const [todos, setTodos] = useState([]);
 const [status, setStatus] = useState('Wszystkie');
 const [filteredTodos, setFilteredTodos] = useState([]);
